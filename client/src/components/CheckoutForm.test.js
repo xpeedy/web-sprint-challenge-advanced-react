@@ -35,4 +35,5 @@ test("form shows success message on submit with form details", () => {
 
     const message = screen.getByTestId(/successMessage/i)
     expect(message).toBeInTheDocument()
+    console.log(message)
 });
